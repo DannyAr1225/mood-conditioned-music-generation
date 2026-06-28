@@ -23,6 +23,10 @@ Full source code is not included in this repository because the project was comp
 * 108K+ MIDI files
 * 5.2K+ hours of symbolic music data
 
+## Approach
+
+We represented MIDI files as token sequences and conditioned generation on emotion and genre metadata. We compared LSTM and Transformer architectures to evaluate how different sequence models handled short-term musical patterns, long-range structure, and mood-conditioned generation.
+
 ## My Contributions
 
 * Helped build the mood-conditioned MIDI preprocessing and tokenization pipeline
@@ -38,4 +42,4 @@ Full source code is not included in this repository because the project was comp
 
 ## Note
 
-This repository is intended as a public portfolio summary. It does not include private course code, assignment materials, datasets, or full implementation details.
+This repository is intended as a public portfolio summary. Full source code, private course materials, datasets, and full implementation details are omitted to comply with university coursework and honor code policies.
